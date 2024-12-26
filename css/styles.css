@@ -15,3 +15,35 @@
     color:yellow;
 }
 /* Завдання 2 */
+h2 {
+    color: red;
+    padding-top: 30px;
+}
+h2:hover,
+h2:focus {
+    color:aquamarine;
+    background-color: rgb(105, 16, 57);
+    height: 50px;
+    padding-bottom: 30px;;
+}
+.day {
+    color:blueviolet;
+    background-color:antiquewhite;
+    width: 120px;
+}
+.day:hover,
+.day:focus {
+    color:burlywood;
+    background-color: rgb(19, 2, 2);
+}
+.lesson {
+    color:blanchedalmond;
+    background-color: blue;
+    height: 60px;
+}
+.lesson:hover,
+.lesson:focus {
+    color:rgb(215, 83, 125);
+    background: rgb(16, 16, 74);
+    height: 100px;
+}
