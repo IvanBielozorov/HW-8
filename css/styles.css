@@ -26,15 +26,25 @@ h2:focus {
     height: 50px;
     padding-bottom: 30px;;
 }
-.day {
+li:nth-child(odd) .day {
     color:blueviolet;
     background-color:antiquewhite;
     width: 120px;
 }
-.day:hover,
-.day:focus {
+li:nth-child(even) .day {
+    color:rgb(59, 54, 47);
+    background-color:rgb(122, 139, 225);
+    width: 120px;
+}
+li:nth-child(odd) .day:hover,
+li:nth-child(odd) .day:focus {
     color:burlywood;
-    background-color: rgb(19, 2, 2);
+    background-color: rgb(124, 16, 16);
+}
+li:nth-child(even) .day:hover,
+li:nth-child(even) .day:focus {
+    color: lightblue;
+    background-color: rgb(34, 34, 34);
 }
 .lesson {
     color:blanchedalmond;
